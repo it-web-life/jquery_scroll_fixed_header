@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+}
+@media screen and (max-width:767px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  padding: 20px 0;
+}
+
+.outline {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* 要素を固定する .is-fixed */
+.outline.is-fixed {
+  position: fixed;
+  top: 0;
+}
+
+.outlineTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.list {
+  font-family: "Quattrocento", serif;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.item {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Quattrocento", serif;
+  color: #323232;
+  margin: 0 2px;
+  border-bottom: solid 2px transparent;
+}
+.item:hover {
+  border-bottom: solid 2px #CC0000;
+}
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+}
+@media screen and (max-width:767px) {
+  .outline {
+    display: none;
+  }
+}
+
+.title {
+  font-size: 25px;
+  margin: 50px auto 20px;
+}
+
+.title:first-letter {
+  font-size: 40px;
+  color: #f00;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.imageDog {
+  width: 100%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+.dummy {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+@media screen and (max-width:767px) {
+  .dummy {
+    width: 100%;
+  }
+}
