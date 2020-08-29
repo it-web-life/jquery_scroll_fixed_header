@@ -60,11 +60,6 @@
   text-decoration: none;
   padding: 10px 0;
 }
-@media screen and (max-width:767px) {
-  .outline {
-    display: none;
-  }
-}
 
 .title {
   font-size: 25px;
